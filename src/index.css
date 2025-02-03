@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@layer components{
+    .btn-style{
+        @apply border border-transparent hover:bg-white hover:border-black hover:text-black cursor-pointer;
+    }
+    .btn-border{
+        @apply border border-white focus:border-white w-full  p-2 bg-amber-100 rounded-xl
+    }
+}
+@theme{
+    --color-back:#ffedcb;
+    --color-title:#fab918;
+    --color-p:#E1D9D1;
+    --color-dark: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));  
+    
+}
+@theme{
+    --breakpoint-3xl:1120px;
+}
